@@ -1,0 +1,88 @@
+body {
+  font-family: 'Signika', sans-serif;
+  background-color: #3D73FF;
+  color: #656F7A;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whitecal {
+  background-color: white;
+  margin: 50px 30px;
+  padding: 50px 0;
+  max-width: 800px;
+  margin: 0 auto;  
+}
+
+.monthyear {
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  text-align: center;
+  }
+  
+.gridcal6x7 {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  grid-spacing: 10px;
+  padding: 20px 200px;
+}
+
+/* .r1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.r2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.r3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.r4 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.r5 {
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.r6 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.c1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+.c2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+.c3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+}
+.c4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.c5 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.c6 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.c7 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+ */
